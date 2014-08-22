@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032B29DE19A7B43300937B4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032B29DD19A7B43300937B4C /* AppDelegate.swift */; };
+		032B29E019A7B43300937B4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032B29DF19A7B43300937B4C /* ViewController.swift */; };
+		032B29E319A7B43300937B4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032B29E119A7B43300937B4C /* Main.storyboard */; };
+		032B29E519A7B43300937B4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032B29E419A7B43300937B4C /* Images.xcassets */; };
+		032B29F119A7B43400937B4C /* IonicPreviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032B29F019A7B43400937B4C /* IonicPreviewTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		032B29EB19A7B43400937B4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 032B29D019A7B43300937B4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 032B29D719A7B43300937B4C;
+			remoteInfo = IonicPreview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		032B29D819A7B43300937B4C /* IonicPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IonicPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		032B29DC19A7B43300937B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		032B29DD19A7B43300937B4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		032B29DF19A7B43300937B4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		032B29E219A7B43300937B4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		032B29E419A7B43300937B4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		032B29EA19A7B43400937B4C /* IonicPreviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IonicPreviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		032B29EF19A7B43400937B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		032B29F019A7B43400937B4C /* IonicPreviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IonicPreviewTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		032B29D519A7B43300937B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032B29E719A7B43400937B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032B29CF19A7B43300937B4C = {
+			isa = PBXGroup;
+			children = (
+				032B29DA19A7B43300937B4C /* IonicPreview */,
+				032B29ED19A7B43400937B4C /* IonicPreviewTests */,
+				032B29D919A7B43300937B4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		032B29D919A7B43300937B4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				032B29D819A7B43300937B4C /* IonicPreview.app */,
+				032B29EA19A7B43400937B4C /* IonicPreviewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		032B29DA19A7B43300937B4C /* IonicPreview */ = {
+			isa = PBXGroup;
+			children = (
+				032B29DD19A7B43300937B4C /* AppDelegate.swift */,
+				032B29DF19A7B43300937B4C /* ViewController.swift */,
+				032B29E119A7B43300937B4C /* Main.storyboard */,
+				032B29E419A7B43300937B4C /* Images.xcassets */,
+				032B29DB19A7B43300937B4C /* Supporting Files */,
+			);
+			path = IonicPreview;
+			sourceTree = "<group>";
+		};
+		032B29DB19A7B43300937B4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				032B29DC19A7B43300937B4C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		032B29ED19A7B43400937B4C /* IonicPreviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				032B29F019A7B43400937B4C /* IonicPreviewTests.swift */,
+				032B29EE19A7B43400937B4C /* Supporting Files */,
+			);
+			path = IonicPreviewTests;
+			sourceTree = "<group>";
+		};
+		032B29EE19A7B43400937B4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				032B29EF19A7B43400937B4C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		032B29D719A7B43300937B4C /* IonicPreview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032B29F419A7B43400937B4C /* Build configuration list for PBXNativeTarget "IonicPreview" */;
+			buildPhases = (
+				032B29D419A7B43300937B4C /* Sources */,
+				032B29D519A7B43300937B4C /* Frameworks */,
+				032B29D619A7B43300937B4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IonicPreview;
+			productName = IonicPreview;
+			productReference = 032B29D819A7B43300937B4C /* IonicPreview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		032B29E919A7B43400937B4C /* IonicPreviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032B29F719A7B43400937B4C /* Build configuration list for PBXNativeTarget "IonicPreviewTests" */;
+			buildPhases = (
+				032B29E619A7B43400937B4C /* Sources */,
+				032B29E719A7B43400937B4C /* Frameworks */,
+				032B29E819A7B43400937B4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				032B29EC19A7B43400937B4C /* PBXTargetDependency */,
+			);
+			name = IonicPreviewTests;
+			productName = IonicPreviewTests;
+			productReference = 032B29EA19A7B43400937B4C /* IonicPreviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		032B29D019A7B43300937B4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = RokkinCat;
+				TargetAttributes = {
+					032B29D719A7B43300937B4C = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					032B29E919A7B43400937B4C = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 032B29D719A7B43300937B4C;
+					};
+				};
+			};
+			buildConfigurationList = 032B29D319A7B43300937B4C /* Build configuration list for PBXProject "IonicPreview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 032B29CF19A7B43300937B4C;
+			productRefGroup = 032B29D919A7B43300937B4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				032B29D719A7B43300937B4C /* IonicPreview */,
+				032B29E919A7B43400937B4C /* IonicPreviewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		032B29D619A7B43300937B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032B29E319A7B43300937B4C /* Main.storyboard in Resources */,
+				032B29E519A7B43300937B4C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032B29E819A7B43400937B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		032B29D419A7B43300937B4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032B29E019A7B43300937B4C /* ViewController.swift in Sources */,
+				032B29DE19A7B43300937B4C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032B29E619A7B43400937B4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032B29F119A7B43400937B4C /* IonicPreviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		032B29EC19A7B43400937B4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 032B29D719A7B43300937B4C /* IonicPreview */;
+			targetProxy = 032B29EB19A7B43400937B4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		032B29E119A7B43300937B4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				032B29E219A7B43300937B4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		032B29F219A7B43400937B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		032B29F319A7B43400937B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		032B29F519A7B43400937B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = IonicPreview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		032B29F619A7B43400937B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = IonicPreview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		032B29F819A7B43400937B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IonicPreviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IonicPreview.app/IonicPreview";
+			};
+			name = Debug;
+		};
+		032B29F919A7B43400937B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IonicPreviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IonicPreview.app/IonicPreview";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		032B29D319A7B43300937B4C /* Build configuration list for PBXProject "IonicPreview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032B29F219A7B43400937B4C /* Debug */,
+				032B29F319A7B43400937B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		032B29F419A7B43400937B4C /* Build configuration list for PBXNativeTarget "IonicPreview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032B29F519A7B43400937B4C /* Debug */,
+				032B29F619A7B43400937B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		032B29F719A7B43400937B4C /* Build configuration list for PBXNativeTarget "IonicPreviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032B29F819A7B43400937B4C /* Debug */,
+				032B29F919A7B43400937B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 032B29D019A7B43300937B4C /* Project object */;
+}
