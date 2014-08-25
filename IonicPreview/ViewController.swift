@@ -11,13 +11,10 @@ import UIKit
 class ViewController: UIViewController {
     
     required init(coder aDecoder: NSCoder) {
-        self.queue = NSOperationQueue()
-        self.queue.maxConcurrentOperationCount = 10
         self.webView = UIWebView()
         super.init(coder: aDecoder)
     }
     
-    var queue:NSOperationQueue
     var webView:UIWebView
 
     override func viewDidLoad() {
