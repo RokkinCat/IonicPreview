@@ -8,9 +8,7 @@
 
 #import "IPUtils.h"
 
-@implementation IPUtils {
-    
-}
+@implementation IPUtils
 
 + (NSString *)getIPAddress {
     NSString *address = @"error";

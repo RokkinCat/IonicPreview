@@ -13,9 +13,7 @@
 #include <ifaddrs.h>
 #include <arpa/inet.h>
 
-@interface IPUtils : NSObject {
-    
-}
+@interface IPUtils : NSObject
 + (NSString *)getIPAddress;
 @end
 
