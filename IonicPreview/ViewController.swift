@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         
         self.view.addSubview(self.webView)
         
-        let ipssec:Array = getIP().componentsSeparatedByString(".")
+        let ipssec:Array = IPUtils.getIPAddress().componentsSeparatedByString(".")
         let fmt:String = "http://" + ".".join(ipssec[0...2]) + ".%i:8100"
         
         NSURLSession.sharedSession().configuration.timeoutIntervalForRequest = 250
@@ -59,13 +59,6 @@ class ViewController: UIViewController {
         let request = NSURLRequest(URL: url)
         self.webView.loadRequest(request)
     }
-    
-    func getIP() -> String {
-        return IPUtils.getIPAddress()
-    }
-
-
-
 }
 
 
