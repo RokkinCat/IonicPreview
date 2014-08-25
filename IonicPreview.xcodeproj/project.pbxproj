@@ -12,6 +12,7 @@
 		032B29E319A7B43300937B4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032B29E119A7B43300937B4C /* Main.storyboard */; };
 		032B29E519A7B43300937B4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032B29E419A7B43300937B4C /* Images.xcassets */; };
 		032B29F119A7B43400937B4C /* IonicPreviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032B29F019A7B43400937B4C /* IonicPreviewTests.swift */; };
+		032B6D7619ABC13D005B3CD0 /* IPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 032B6D7519ABC13D005B3CD0 /* IPUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,9 @@
 		032B29EA19A7B43400937B4C /* IonicPreviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IonicPreviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		032B29EF19A7B43400937B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		032B29F019A7B43400937B4C /* IonicPreviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IonicPreviewTests.swift; sourceTree = "<group>"; };
+		032B6D7519ABC13D005B3CD0 /* IPUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPUtils.m; sourceTree = "<group>"; };
+		032B6D7719ABC162005B3CD0 /* IPUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPUtils.h; sourceTree = "<group>"; };
+		03A259F119A7BADD00E204C5 /* IonicPreview-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IonicPreview-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,9 @@
 			children = (
 				032B29DD19A7B43300937B4C /* AppDelegate.swift */,
 				032B29DF19A7B43300937B4C /* ViewController.swift */,
+				032B6D7519ABC13D005B3CD0 /* IPUtils.m */,
+				032B6D7719ABC162005B3CD0 /* IPUtils.h */,
+				03A259F119A7BADD00E204C5 /* IonicPreview-Bridging-Header.h */,
 				032B29E119A7B43300937B4C /* Main.storyboard */,
 				032B29E419A7B43300937B4C /* Images.xcassets */,
 				032B29DB19A7B43300937B4C /* Supporting Files */,
@@ -209,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				032B29E019A7B43300937B4C /* ViewController.swift in Sources */,
+				032B6D7619ABC13D005B3CD0 /* IPUtils.m in Sources */,
 				032B29DE19A7B43300937B4C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +338,7 @@
 				INFOPLIST_FILE = IonicPreview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IonicPreview/IonicPreview-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -341,6 +350,7 @@
 				INFOPLIST_FILE = IonicPreview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IonicPreview/IonicPreview-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -397,6 +407,7 @@
 				032B29F619A7B43400937B4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		032B29F719A7B43400937B4C /* Build configuration list for PBXNativeTarget "IonicPreviewTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +416,7 @@
 				032B29F919A7B43400937B4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
